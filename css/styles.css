@@ -500,7 +500,7 @@ list-style: none;
   margin-top: 16px;
 }
 .footer-form {
-  padding-left: 80px;
+  margin-left: auto;
 }
 
 .footer-form-wrap {
@@ -614,7 +614,7 @@ list-style: none;
   padding-top: 72px;
 }
 .modal-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .modal-close-button {
   position: absolute;
@@ -723,7 +723,7 @@ border: 1px solid rgba(46, 47, 66, 0.4);
   line-height: 1.16667;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  margin-left: 8px;
+
   display: flex;
   align-items: center;
   padding-bottom: 24px;

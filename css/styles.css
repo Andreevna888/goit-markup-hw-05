@@ -528,7 +528,7 @@ list-style: none;
 .footer-form-input:focus {
   border: 1px solid #31d0aa;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  transition: border 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-form-button:hover,
 .footer-form-button:focus {
@@ -693,9 +693,9 @@ border: 1px solid rgba(46, 47, 66, 0.4);
   justify-content: center;
   fill: transparent;
   transition:
-    background-color 300ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 300ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-check-label {
   font-size: 12px;

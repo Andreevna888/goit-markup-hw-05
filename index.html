@@ -62,7 +62,9 @@
               Effective Solutions for Your Business
             </h1>
             <div class="hero-buttons">
-              <button class="btn" type="button">Order Service</button>
+              <button class="btn" type="button" data-modal-open>
+                Order Service
+              </button>
             </div>
           </div>
         </div>
@@ -511,9 +513,9 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop" data-modal>
       <div class="modal">
-        <button type="button" class="modal-close-button">
+        <button type="button" class="modal-close-button" data-modal-close>
           <svg class="button-icons">
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
@@ -579,5 +581,7 @@
         </form>
       </div>
     </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>

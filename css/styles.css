@@ -523,7 +523,7 @@ list-style: none;
   outline: transparent;
   box-sizing: border-box;
   color: #ffffff;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-form-input:hover,
 .footer-form-input:focus {
@@ -647,6 +647,7 @@ list-style: none;
   fill: #ffffff;
 }
 .modal-title {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -728,7 +729,6 @@ border: 1px solid rgba(46, 47, 66, 0.4);
 
   display: flex;
   align-items: center;
-  padding-bottom: 24px;
 }
 .check-icon-text {
   line-height: 1.33333;
@@ -737,7 +737,9 @@ border: 1px solid rgba(46, 47, 66, 0.4);
   color: #4d5ae5;
   margin-left: 2px;
 }
-
+.modal-button {
+  margin-top: 24px;
+}
 .modal-check:checked + .modal-check-label .check-mark {
   border-radius: 2px;
 

@@ -528,11 +528,12 @@ list-style: none;
 .footer-form-input:focus {
   border: 1px solid #31d0aa;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-form-button:hover,
 .footer-form-button:focus {
   background: #31d0aa;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-text-icon {
   display: block;
@@ -560,12 +561,17 @@ list-style: none;
   justify-content: center;
   column-gap: 16px;
 }
+
 .button-icons-footer {
   fill: #fff;
 }
-.button-icons {
+.modal-close-icon {
+  fill: #2e2f42;
   width: 8px;
   height: 8px;
+  transition:
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-text {
   font-weight: 400;
@@ -624,11 +630,19 @@ list-style: none;
   border-radius: 50%;
   background-color: #e7e9fc;
 }
+.modal-close-icon {
+  fill: #2e2f42;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .modal-close-button:focus,
 .modal-close-button:hover {
   border-radius: 100%;
-  fill: #fff;
+  border: none;
   background-color: #404bbf;
+}
+.modal-close-button:focus .modal-close-icon,
+.modal-close-button:hover .modal-close-icon {
+  fill: #ffffff;
 }
 .modal-title {
   font-size: 16px;
@@ -644,7 +658,7 @@ list-style: none;
   line-height: 1.16667;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
   display: inline-block;
 }
 
@@ -674,7 +688,7 @@ list-style: none;
   fill: #2e2f42;
   position: absolute;
   top: 50%;
-  left: 19px;
+  left: 16px;
   transform: translateY(-50%);
 }
 .modal-textarea {
@@ -712,6 +726,7 @@ border: 1px solid rgba(46, 47, 66, 0.4);
   margin-left: 8px;
   display: flex;
   align-items: center;
+  padding-bottom: 24px;
 }
 .check-icon-text {
   line-height: 1.33333;

@@ -591,7 +591,7 @@ list-style: none;
   visibility: hidden;
   pointer-events: none;
 }
-.is-open {
+.backdrop.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
@@ -614,7 +614,7 @@ list-style: none;
   padding-top: 72px;
 }
 .modal-field {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .modal-close-button {
   position: absolute;

@@ -547,7 +547,7 @@ list-style: none;
 .footer-form-button {
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  width: 169px;
   height: 40px;
   font-size: 16px;
   line-height: 1.5;
@@ -599,6 +599,12 @@ list-style: none;
   pointer-events: auto;
 }
 
+.check-icon {
+  opacity: 0;
+}
+.modal-check:checked + .modal-check-label .check-icon {
+  opacity: 1;
+}
 .modal {
   position: absolute;
   top: 50%;
@@ -697,7 +703,7 @@ list-style: none;
 .modal-textarea {
   height: 120px;
   resize: none;
-  padding: 8px;
+  padding: 8px 16px;
 }
 /*.modal-check{
     width: 16px;

@@ -624,6 +624,9 @@ list-style: none;
 .modal-field {
   margin-bottom: 8px;
 }
+.modal-checkbox {
+  margin-bottom: 24px;
+}
 .modal-close-button {
   position: absolute;
   display: flex;
@@ -705,6 +708,10 @@ list-style: none;
   resize: none;
   padding: 8px 16px;
 }
+
+.modal-field .modal-textarea {
+  margin-bottom: 16px;
+}
 /*.modal-check{
     width: 16px;
     height: 16px;
@@ -744,8 +751,8 @@ border: 1px solid rgba(46, 47, 66, 0.4);
   margin-left: 2px;
 }
 .modal-button {
-  margin-top: 24px;
 }
+
 .modal-check:checked + .modal-check-label .check-mark {
   border-radius: 2px;
 
